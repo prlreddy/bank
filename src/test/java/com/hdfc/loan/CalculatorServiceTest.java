@@ -61,10 +61,17 @@ public class CalculatorServiceTest{
 		int rs = calculatorService.sum(-10,-5);
 		assertEquals(-15,rs);
 	}	
+	
 	@Test
 	public void testDivide(){
 		int rs = calculatorService.divide(10,5);
 		assertEquals(2,rs);
+	}
+	
+	@Test
+	public void testTwoDivide(){
+		int rs = calculatorService.divide(15,5);
+		assertEquals(3,rs);
 	}
 	
 	@Test
