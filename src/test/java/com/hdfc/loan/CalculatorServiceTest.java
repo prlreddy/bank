@@ -67,6 +67,11 @@ public class CalculatorServiceTest{
 		assertEquals(2,rs);
 	}
 	
+	@Test
+	public void testBigNumber(){
+		int rs = calculatorService.bigNumber(10,5);
+		assertEquals(10,rs);
+	}
 
 
 }
