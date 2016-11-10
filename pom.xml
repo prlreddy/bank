@@ -36,9 +36,6 @@
 				<version>2.12.4</version>	
 				<configuration>
 					<testFailureIgnore>true</testFailureIgnore>
-					<excludes>
-						<exclude>**/CalculatorServiceTest.java</exclude>
-					</excludes>
 				</configuration>
 			</plugin>
 			
