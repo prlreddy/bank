@@ -60,7 +60,12 @@ public class CalculatorServiceTest{
 	public void testTwoNegativeSum(){
 		int rs = calculatorService.sum(-10,-5);
 		assertEquals(-15,rs);
-	}		
+	}	
+	@Test
+	public void testDivide(){
+		int rs = calculatorService.divide(10,5);
+		assertEquals(2,rs);
+	}
 	
 
 
